@@ -1,23 +1,30 @@
 body {
   margin: 0;
   padding: 0;
-  background: #444444;
+  background: #FFF;
   font-family: Arial, Sans-serif;
-  color: white; }
+  color: #383838; }
 
 h1 {
   margin: 0;
   padding: 40px;
-  background: black;
-  border-bottom: 1px #dead00 solid; }
+  background: #e8e8e8; }
   h1 a {
     text-decoration: none;
-    color: white; }
+    color: #383838; }
 
 h2 {
   display: table;
   margin: 50px auto;
-  text-align: center;
-  border-bottom: 1px #dead00 dashed; }
+  text-align: center; }
+  h2::before {
+    content: "/*"; }
+  h2::after {
+    content: "*/"; }
+  h2::before, h2::after {
+    font-family: Courier;
+    margin: 20px;
+    color: #dead00;
+    font-size: 30px; }
 
 /*# sourceMappingURL=main.css.map */

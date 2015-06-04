@@ -1,25 +1,37 @@
 $main_color: #dead00
+$text_color: #383838
 
 body
 	margin: 0
 	padding: 0
-	background: #444444
+	background: #FFF
 	font-family: Arial, Sans-serif
-	color: white
+	color: $text_color
 
 h1
 	margin: 0
 	padding: 40px
-	background: black
-	border-bottom: 1px $main_color solid
+	background: #e8e8e8
 
 	a
 		text-decoration: none
-		color: white
+		color: $text_color
 
 h2
 	display: table
 	margin: 50px auto
 	text-align: center
-	border-bottom: 1px $main_color dashed
+
+	&::before
+		content: "/*"
+
+	&::after
+		content: "*/"
+	
+	&::before,
+	&::after
+		font-family: Courier
+		margin: 20px
+		color: $main_color
+		font-size: 30px
 	
