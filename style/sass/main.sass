@@ -1,9 +1,11 @@
 $main_color: #dead00
 $text_color: #383838
+$grey: #e8e8e8
 
 body
 	margin: 0
 	padding: 0
+	min-width: 900px
 	background: #FFF
 	font-family: Arial, Sans-serif
 	color: $text_color
@@ -11,7 +13,7 @@ body
 h1
 	margin: 0
 	padding: 40px
-	background: #e8e8e8
+	background: $grey
 
 	a
 		text-decoration: none
@@ -34,4 +36,32 @@ h2
 		margin: 20px
 		color: $main_color
 		font-size: 30px
+
+div#projects
+	width: 800px
+	margin: 100px auto
+
+	figure
+		figcaption
+			width: 82%
+			display: inline-block
+			position: relative
+			top: -40px
+			margin-left: 20px
+
+			h3
+				margin: 0
 	
+				a
+					text-decoration: none
+					color: $text_color
+				
+					&:hover
+						color: $main_color
+		
+			p
+				margin-top: 5px
+
+canvas
+	background: $grey
+	border-radius: 2px
