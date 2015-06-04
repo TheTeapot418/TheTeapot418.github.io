@@ -1,6 +1,23 @@
 body {
   margin: 0;
   padding: 0;
-  background: #444444; }
+  background: #444444;
+  font-family: Arial, Sans-serif;
+  color: white; }
+
+h1 {
+  margin: 0;
+  padding: 40px;
+  background: black;
+  border-bottom: 1px #dead00 solid; }
+  h1 a {
+    text-decoration: none;
+    color: white; }
+
+h2 {
+  display: table;
+  margin: 50px auto;
+  text-align: center;
+  border-bottom: 1px #dead00 dashed; }
 
 /*# sourceMappingURL=main.css.map */
