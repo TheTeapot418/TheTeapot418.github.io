@@ -62,4 +62,10 @@ canvas#scene {
   margin: 80px auto 0;
   border: 1px #dead00 solid; }
 
+.controls {
+  width: 800px;
+  margin: 20px auto 50px; }
+  .controls input:not([type="checkbox"]) {
+    display: block; }
+
 /*# sourceMappingURL=main.css.map */
