@@ -54,8 +54,9 @@ canvas {
 p.subtitle {
   font-size: 80%;
   text-align: right;
-  margin: 10px 0 0 0;
-  color: #dead00; }
+  margin: 10px 0 0 0; }
+  p.subtitle a {
+    color: #dead00; }
 
 canvas#scene {
   display: block;
