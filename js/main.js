@@ -3,7 +3,6 @@ var thumbnails = [];
 //LFO thumbnail
 
 LFO_loop = function() {
-	console.log("TEST");
 	if (LFO_thumb.running) {
 		requestAnimationFrame(LFO_loop);
 	}
