@@ -1,3 +1,8 @@
+//lfo.js
+//Created by Guillaume Bauer
+//GitHub repo : http://github.com/TheTeapot418/LFO.js
+//GitHub page : http://theteapot418.github.io
+
 function LFO (param) {
 	this.startTime = new Date().getTime();
 	
@@ -66,5 +71,9 @@ function LFO (param) {
 		x = x - Math.floor(x);
 		
 		return (this.amplitude / 2) * this.waveform(x * 2 * Math.PI);
+	}
+	
+	this.reset = function() {
+		this.startTime = new Date().getTime();
 	}
 }

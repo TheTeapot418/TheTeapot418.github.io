@@ -51,4 +51,15 @@ canvas {
   background: #e8e8e8;
   border-radius: 2px; }
 
+p.subtitle {
+  font-size: 80%;
+  text-align: right;
+  margin: 10px 0 0 0;
+  color: #dead00; }
+
+canvas#scene {
+  display: block;
+  margin: 80px auto 0;
+  border: 1px #dead00 solid; }
+
 /*# sourceMappingURL=main.css.map */
